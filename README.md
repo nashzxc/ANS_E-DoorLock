@@ -51,9 +51,10 @@ A simple electronic door lock system final project for our internship program, b
 ## Usage
 
 1. Power on the device. The OLED will prompt you to **Enter PIN**.
-2. Enter your 4-digit password using the keypad.
-3. If correct, the solenoid unlocks the door and the OLED displays **Access Granted**.
-4. If incorrect, the OLED displays **Access Denied** and prompts you to try again.
+2. Enter your 4-digit password using the keypad, and press **#** to submit.
+3. Press **A** to clear the PIN you entered.
+4. If correct, the solenoid unlocks the door and the OLED displays **Access Granted**.
+5. If incorrect, the OLED displays **Access Denied** and prompts you to try again.
 
 ### Changing the Default PIN
 
