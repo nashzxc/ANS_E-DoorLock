@@ -13,13 +13,14 @@ A simple electronic door lock system final project for our internship program, b
 
 | Component | Quantity | Notes |
 |---|---|---|
-| Arduino (Uno/Nano/etc.) | 1 | Specify your board model |
-| 4x4 or 4x3 Keypad | 1 | |
-| Solenoid Door Lock | 1 | 12V (or specify voltage) |
-| OLED Display | 1 | e.g., SSD1306 128x64, I2C |
-| Relay Module | 1 | To drive the solenoid |
-| Jumper Wires | - | |
-| Power Supply | 1 | For Arduino + solenoid |
+| Arduino Board | 1 | Nano |
+| 4x4 Keypad | 1 | |
+| Solenoid Door Lock | 1 | 12V Preferably |
+| OLED Display | 1 | I2C 0.96' Display |
+| Relay Module | 1 | 5v Single Channel |
+| DC-DC Buck Converter | 1 | 12v to 5v Step down converter |
+| Custom Board | - | Customized for the components |
+| Power Supply | 1 | 12v Centralized PSU |
 
 *(Edit this table to match your actual parts list.)*
 
