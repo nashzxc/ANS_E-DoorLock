@@ -53,10 +53,12 @@ A simple electronic door lock system final project for our internship program, b
 
 The default PIN after flashing the firmware is "1234". Update it after uploading to save your new password at the EEPROM:
 
-```cpp
-char password[5] = "1234"; // change to your desired 4-digit PIN
-```
+To change the PIN:
 
+1. Press "C" at the keypad.
+2. Enter the current PIN of the system (default is '1234').
+3. Enter your new PIN and Confirm it by entering again.
+4. Press "#" to save your PIN.
 
 ## Developers
 Nash E. Claridad
