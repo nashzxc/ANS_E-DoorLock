@@ -1,6 +1,6 @@
 # Simple E-DoorLock
 
-A simple electronic door lock system built with Arduino. It uses a keypad for password entry, a solenoid lock for the locking mechanism, and an OLED display for user feedback.
+A simple electronic door lock system final project for our internship program, built with Arduino. It uses a keypad for password entry, a solenoid lock for the locking mechanism, and an OLED display for user feedback.
 
 ## Features
 
@@ -33,14 +33,13 @@ See [`schematic/`](./schematic) for the wiring diagram.
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/yourusername/Simple-E-DoorLock.git
+   git clone https://github.com/nashzxc/Simple_E-DoorLock.git
    ```
 2. Open the `.ino` file in the [Arduino IDE](https://www.arduino.cc/en/software).
-3. Install required libraries (e.g., `Keypad`, `Adafruit_SSD1306`, `Adafruit_GFX`, `Wire`) via **Sketch > Include Library > Manage Libraries**.
-4. Wire your components according to the schematic in `schematic/`.
+3. Install required libraries (`Wire`, `LiquidCrystal_I2C.h`, `Keypad`, `EEPROM`) via **Sketch > Include Library > Manage Libraries**.
+4. Wire your components according to the schematic.
 5. Select your board and port under **Tools**, then upload the sketch.
 
-*(This is a placeholder — edit with your exact library names/versions and any additional setup steps.)*
 
 ## Usage
 
@@ -51,16 +50,15 @@ See [`schematic/`](./schematic) for the wiring diagram.
 
 ### Changing the Default PIN
 
-The PIN is set in the code (e.g., a `password` variable). Update it before uploading:
+The default PIN after flashing the firmware is "1234". Update it after uploading to save your new password at the EEPROM:
 
 ```cpp
 char password[5] = "1234"; // change to your desired 4-digit PIN
 ```
 
-## License
 
-*(Add your license here, e.g., MIT, GPL-3.0, etc.)*
-
-## Contributing
-
-Pull requests are welcome. For major changes, please open an issue first to discuss what you'd like to change.
+## Developers
+Nash E. Claridad
+..
+..
+..
