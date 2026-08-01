@@ -1,0 +1,66 @@
+# Simple E-DoorLock
+
+A simple electronic door lock system built with Arduino. It uses a keypad for password entry, a solenoid lock for the locking mechanism, and an OLED display for user feedback.
+
+## Features
+
+- 4-digit PIN code to unlock the door
+- OLED display shows system status (e.g., "Enter PIN", "Access Granted", "Access Denied")
+- Solenoid lock actuation on correct PIN entry
+- Easy to customize PIN and wiring
+
+## Hardware Components
+
+| Component | Quantity | Notes |
+|---|---|---|
+| Arduino (Uno/Nano/etc.) | 1 | Specify your board model |
+| 4x4 or 4x3 Keypad | 1 | |
+| Solenoid Door Lock | 1 | 12V (or specify voltage) |
+| OLED Display | 1 | e.g., SSD1306 128x64, I2C |
+| Relay Module | 1 | To drive the solenoid |
+| Jumper Wires | - | |
+| Power Supply | 1 | For Arduino + solenoid |
+
+*(Edit this table to match your actual parts list.)*
+
+## Schematic
+
+See [`schematic/`](./schematic) for the wiring diagram.
+
+> Follow the schematic to connect the keypad, OLED, and solenoid (via relay) to the Arduino before uploading the code.
+
+## Installation
+
+1. Clone this repository:
+   ```bash
+   git clone https://github.com/yourusername/Simple-E-DoorLock.git
+   ```
+2. Open the `.ino` file in the [Arduino IDE](https://www.arduino.cc/en/software).
+3. Install required libraries (e.g., `Keypad`, `Adafruit_SSD1306`, `Adafruit_GFX`, `Wire`) via **Sketch > Include Library > Manage Libraries**.
+4. Wire your components according to the schematic in `schematic/`.
+5. Select your board and port under **Tools**, then upload the sketch.
+
+*(This is a placeholder — edit with your exact library names/versions and any additional setup steps.)*
+
+## Usage
+
+1. Power on the device. The OLED will prompt you to **Enter PIN**.
+2. Enter your 4-digit password using the keypad.
+3. If correct, the solenoid unlocks the door and the OLED displays **Access Granted**.
+4. If incorrect, the OLED displays **Access Denied** and prompts you to try again.
+
+### Changing the Default PIN
+
+The PIN is set in the code (e.g., a `password` variable). Update it before uploading:
+
+```cpp
+char password[5] = "1234"; // change to your desired 4-digit PIN
+```
+
+## License
+
+*(Add your license here, e.g., MIT, GPL-3.0, etc.)*
+
+## Contributing
+
+Pull requests are welcome. For major changes, please open an issue first to discuss what you'd like to change.
