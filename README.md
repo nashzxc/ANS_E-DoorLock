@@ -26,7 +26,7 @@ A simple electronic door lock system final project for our internship program, b
 
 ## Schematic
 
-See [`schematic/`](./schematic) for the wiring diagram.
+See [`schematic/`](./schematic/wiring-diagram.png) for the wiring diagram.
 
 > Follow the schematic to connect the keypad, OLED, and solenoid (via relay) to the Arduino before uploading the code.
 
