@@ -22,7 +22,7 @@ A simple electronic door lock system final project for our internship program, b
 | Custom Board | - | Customized for the components |
 | Power Supply | 1 | 12v Centralized PSU |
 
-*(Edit this table to match your actual parts list.)*
+
 
 ## Schematic
 
