@@ -47,6 +47,7 @@ A simple electronic door lock system final project for our internship program, b
 5. Wire your components according to the schematic.
 6. Select your board and port under **Tools**, then upload the sketch.
 
+> Install the required libraries via the Arduino Library Manager. If any aren't available there, manual copies are included in this repo.
 
 ## Usage
 
