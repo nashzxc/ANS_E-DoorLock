@@ -37,9 +37,15 @@ A simple electronic door lock system final project for our internship program, b
    git clone https://github.com/nashzxc/Simple_E-DoorLock.git
    ```
 2. Open the `.ino` file in the [Arduino IDE](https://www.arduino.cc/en/software).
-3. Install required libraries (`Wire`, `LiquidCrystal_I2C.h`, `Keypad`, `EEPROM`) via **Sketch > Include Library > Manage Libraries**.
-4. Wire your components according to the schematic.
-5. Select your board and port under **Tools**, then upload the sketch.
+3. Install required libraries 
+   `Wire`,
+   `Adafruit_GFX.h`, 
+   `Adafruit_SSD1306.h`, 
+   `Keypad`, 
+   `EEPROM`, 
+   via **Sketch > Include Library > Manage Libraries**.
+5. Wire your components according to the schematic.
+6. Select your board and port under **Tools**, then upload the sketch.
 
 
 ## Usage
