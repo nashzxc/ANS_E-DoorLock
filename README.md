@@ -16,7 +16,7 @@ A simple electronic door lock system final project for our internship program, b
 | Arduino Board | 1 | Nano |
 | 4x4 Keypad | 1 | |
 | Solenoid Door Lock | 1 | 12V Preferably |
-| OLED Display | 1 | I2C 0.96' Display |
+| OLED Display | 1 | Monochrome SSD1306 0.96' Display |
 | Relay Module | 1 | 5v Single Channel |
 | DC-DC Buck Converter | 1 | 12v to 5v Step down converter |
 | Custom Board | - | Customized for the components |
