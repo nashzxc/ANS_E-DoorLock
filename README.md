@@ -36,7 +36,7 @@ A simple electronic door lock system final project for our internship program, b
    ```bash
    git clone https://github.com/nashzxc/Simple_E-DoorLock.git
    ```
-2. Open the `.ino` file in the [Arduino IDE](https://www.arduino.cc/en/software).
+2. Open the `door_lock.ino` file in the [Arduino IDE](https://www.arduino.cc/en/software).
 3. Install required libraries 
    `Wire`,
    `Adafruit_GFX.h`, 
