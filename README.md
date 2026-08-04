@@ -1,4 +1,4 @@
-# Simple E-DoorLock
+# ANS E-DoorLock
 
 A simple electronic door lock system final project for our internship program, built with Arduino. It uses a keypad for password entry, a solenoid lock for the locking mechanism, and an OLED display for user feedback.
 
