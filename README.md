@@ -69,7 +69,7 @@ To change the PIN:
 4. Press "#" to save your PIN.
 
 ## Developers
-Nash E. Claridad
+Nash E. Claridad  
 Andrew P. Madriaga
 ..
 ..
