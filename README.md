@@ -34,7 +34,7 @@ A simple electronic door lock system final project for our internship program, b
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/nashzxc/Simple_E-DoorLock.git
+   git clone https://github.com/nashzxc/ANS_E-DoorLock.git
    ```
 2. Open the `door_lock.ino` file in the [Arduino IDE](https://www.arduino.cc/en/software).
 3. Install required libraries 
