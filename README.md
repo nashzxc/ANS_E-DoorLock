@@ -70,6 +70,6 @@ To change the PIN:
 
 ## Developers
 Nash E. Claridad
-..
+Andrew P. Madriaga
 ..
 ..
