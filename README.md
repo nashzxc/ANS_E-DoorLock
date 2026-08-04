@@ -70,6 +70,14 @@ To change the PIN:
 
 ## Developers
 Nash E. Claridad  
-Andrew P. Madriaga
-..
-..
+Andrew P. Madriaga  
+John Eric P. Nuevas  
+Theressa Shane C. Gayrama  
+James O. Magayon  
+Shein Audrey R. Ramil  
+Charles Justine G. Oledan  
+Don Cheeko A. Cabueñas  
+Rodolfo L. Tobilla Jr.  
+Zean Clifford G. Dellera
+Mark Clarence B. Mabutol  
+Ayle P. Sode
